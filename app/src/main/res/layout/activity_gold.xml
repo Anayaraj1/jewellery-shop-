@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".GoldActivity">
+
+    <ImageView
+        android:layout_width="271dp"
+        android:layout_height="147dp"
+        android:background="@android:color/background_light"
+        android:src="@drawable/ring1"
+        android:id="@+id/ivr1"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/ivnecklase"
+        android:layout_width="268dp"
+        android:layout_height="263dp"
+        android:background="@color/white"
+        android:layout_below="@id/ivr1"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/necklase1" />
+
+    <ImageView
+        android:id="@+id/ivkangan"
+        android:layout_width="259dp"
+        android:layout_height="260dp"
+        android:layout_below="@id/ivnecklase"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/background_light"
+        android:src="@drawable/braselet7" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="@color/rubi"
+        android:layout_marginEnd="20dp"
+        android:text="Ring" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="296dp"
+        android:backgroundTint="@color/rubi"
+        android:layout_marginEnd="15dp"
+        android:text="Necklase" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/rubi"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="138dp"
+        android:text="Kangan" />
+
+
+</RelativeLayout>

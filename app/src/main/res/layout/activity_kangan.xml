@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".KanganActivity">
+
+    <ImageView
+        android:id="@+id/ivb1"
+        android:layout_width="199dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/braselet3" />
+
+    <ImageView
+        android:id="@+id/ivb2"
+        android:layout_width="199dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/ivb1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="182dp"
+        android:src="@drawable/braselet4" />
+
+    <ImageView
+        android:id="@+id/ivb3"
+        android:layout_width="199dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/ivb2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="371dp"
+        android:src="@drawable/braselet5" />
+
+    <ImageView
+        android:id="@+id/ivb4"
+        android:layout_width="199dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="563dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/braselet6" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="29dp"
+        android:text="Buy now"
+        android:backgroundTint="@color/hg" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="33dp"
+        android:text="Buy now"
+        android:backgroundTint="@color/hg"/>
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="267dp"
+        android:text="Buy now"
+        android:backgroundTint="@color/hg" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="64dp"
+        android:text="Buy now"
+        android:backgroundTint="@color/hg"
+       />
+
+</RelativeLayout>

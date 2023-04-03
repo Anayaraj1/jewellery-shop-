@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".SilverNecklaseActivity">
+
+    <ImageView
+        android:id="@+id/ivsn1"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:src="@drawable/s2neckles" />
+
+    <ImageView
+        android:id="@+id/ivsn2"
+        android:layout_width="228dp"
+        android:layout_height="163dp"
+        android:layout_below="@id/ivsn1"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/s3neckles" />
+    <ImageView
+        android:id="@+id/ivsn3"
+        android:layout_width="228dp"
+        android:layout_height="163dp"
+        android:layout_below="@id/ivsn2"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/sneckles" />
+
+    <ImageView
+        android:id="@+id/ivsn4"
+        android:layout_width="228dp"
+        android:layout_height="163dp"
+        android:layout_below="@id/ivsn3"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/s6neckles" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="@color/hg"
+        android:text="Buy now" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="@color/hg"
+        android:text="Buy now" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="@color/hg"
+        android:text="Buy now" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="@color/hg"
+        android:text="Buy now" />
+
+
+</RelativeLayout>

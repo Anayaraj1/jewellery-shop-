@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivj1"
+        android:layout_width="248dp"
+        android:layout_height="222dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="75dp"
+        android:src="@drawable/jewellery" />
+
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="92dp"
+        android:layout_below="@id/ivj1"
+        android:id="@+id/ivmale"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/man" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivmale"
+        android:text="Men"
+        android:textSize="30dp"
+        android:id="@+id/btnmale"
+        android:shadowColor="@color/g"
+        android:shadowRadius="@integer/material_motion_duration_long_2"
+        android:background="@drawable/bg_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <ImageView
+        android:layout_width="261dp"
+        android:layout_height="128dp"
+        android:layout_below="@id/btnmale"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:id="@+id/ivfemale"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/beauty" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnfemale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivfemale"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_content"
+        android:outlineSpotShadowColor="@color/rubi"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:shadowColor="@color/g"
+        android:shadowRadius="@integer/material_motion_duration_long_2"
+        android:text="women"
+        android:textSize="30dp" />
+
+
+
+</RelativeLayout>

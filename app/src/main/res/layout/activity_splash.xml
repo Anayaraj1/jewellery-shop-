@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/ivsplash"
+        android:layout_width="415dp"
+        android:layout_height="577dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-6dp"
+        android:clipToOutline="true"
+        android:focusable="true"
+        android:outlineSpotShadowColor="@color/rubi"
+        android:src="@drawable/j3" />
+
+    <TextView
+        android:id="@+id/tvsplash"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox.Dense"
+        android:layout_width="396dp"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="22dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:shadowColor="@color/rubi"
+        android:shadowRadius="@integer/material_motion_duration_long_2"
+        android:text="RUBI"
+        android:textColor="@color/rubi"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+</RelativeLayout>

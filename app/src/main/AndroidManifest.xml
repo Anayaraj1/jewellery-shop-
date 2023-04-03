@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rubi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RUBI">
+        <activity
+            android:name=".SilverPayalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SilverBraceletActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SilverNecklaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SilverRingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Braselet1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Necklase1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Ring1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SubmitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Buynow1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NecklesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlatinumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SilverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoldActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FemaleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

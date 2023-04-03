@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlatinumActivity">
+
+    <ImageView
+        android:id="@+id/ivpl"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/r1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivpl"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn1"
+        android:text="Ring"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:backgroundTint="@color/hg"/>
+
+    <ImageView
+        android:id="@+id/ivpl1"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_below="@id/btn1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="236dp"
+        android:src="@drawable/pn1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivpl1"
+        android:id="@+id/btn2"
+        android:backgroundTint="@color/hg"
+        android:text="NECKlase"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivpl2"
+        android:src="@drawable/pk1"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:layout_below="@id/ivpl2"
+        android:backgroundTint="@color/hg"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Bracelet"
+        android:textSize="25dp"/>
+
+</RelativeLayout>
